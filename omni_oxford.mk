@@ -21,9 +21,9 @@ PRODUCT_RELEASE_NAME := oxford
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit some common MK stuff.
-$(call inherit-product, vendor/mk/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_NAME := mk_oxford
+PRODUCT_NAME := omni_oxford
 PRODUCT_BRAND := Smartisan
 PRODUCT_DEVICE := oxford
 PRODUCT_MANUFACTURER := smartisan
